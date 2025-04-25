@@ -6,20 +6,28 @@
     <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav id="navbar">
             <div class="nav-container">
                 <div class="logo">Portfólio</div>
-                <ul class="nav-links">e">
+                <ul class="nav-links">
                     <i class="fas fa-moon"></i>
                     <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">Sobre mim</a></li>
                     <li><a href="#projects" class="nav-link">Projetos</a></li>
                     <li><a href="#contact" class="nav-link">Contato</a></li>
+                    <div id="acessibilidade" class="menu-acessibilidade">
+                        <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">Acessibilidade</button>
+                        <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                            <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+                            <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+                        </div>
+                    </div>
                 </ul>
-                <button id="theme-toggle" aria-label="Toggle dark mod
+                <button id="theme-toggle" aria-label="Toggle dark mod"></button>
                 </button>
                 <div class="hamburger">
                     <span class="bar"></span>
